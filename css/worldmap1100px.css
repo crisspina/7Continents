@@ -1,4 +1,6 @@
-@media screen and (min-width: 1100px){
+
+
+@media screen and (max-width: 1100px){
 	nav{
 		background-color: #023649;
 		padding-right: 1rem;
@@ -15,11 +17,9 @@
 		text-decoration: underline;
 	}
 	
-	.display-1100px{
+	.none-1100px{
 		display: none;
 	}
-	
-	
 	
 	#container-navigation{
 		height: 60px;
@@ -34,6 +34,7 @@
 		background-color: #023649;
 		/*background-color: red;
 		opacity: 0.25;*/
+		width: 70% !important;
 	}
 	
 	#right-nav{
@@ -43,6 +44,7 @@
 		background-color: #023649;
 		/*background-color: pink;
 		opacity: 0.25;*/
+		width: 30% !important;
 	}
 	
 	.main-nav-btn-left{
@@ -67,7 +69,6 @@
 	#btn-home:active .main-nav-btn-text{
 		color: white;
 	}
-	
 	
 	.main-nav-btn-right{
 		height: 100%;
@@ -115,12 +116,38 @@
 		width: auto;
 	}
 	
+	
 	#dropdown-content{
 		display: none;
 		width: 130px;
 		height: auto;
 		margin-left: -10px;
 		margin-top: -7px;
+	}
+	
+	#dropdown-content-1100px{
+		display: none;
+		width: auto;
+		height: auto;
+		margin-left: -10px;
+		margin-top: -7px;
+	}
+	
+	#wd1100-btn:hover #dropdown-content-1100px{
+		display: block;
+	}
+	
+	.main-nav-dropdown-1100px{
+		background-color: lightgrey;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		width: 100%;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	
+	.main-nav-dropdown-1100px:hover .main-nav-dropdown-text{
+		color: black;
 	}
 	
 	.main-nav-btn-text{
@@ -153,92 +180,6 @@
 	
 	.main-nav-dropdown:active .main-nav-dropdown-text{
 		color: white;
-	}	
-}
-
-body{
-	font-family: 'Asap Condensed';
-	background-color: #FFA538;
-}
-
-.wd-100{
-	width: 100%;
-}
-
-.wd-80{
-	width: 80%
-}
-
-.wd-70{
-	width: 70%;
-}
-
-.wd-60{
-	width: 60%;
-}
-
-.wd-50;{
-	width: 50%;
-}
-
-.wd-40{
-	width: 40%;
-}
-
-.wd-30{
-	width: 30%;
-}
-
-.wd-20{
-	width: 20%;
-}
-#welcome-page-inside-box{
-	background-color: rgba(255,255,255,0.2);
-	width: 350px;
-	height: 350px;
-	margin-top: 150px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-.text{
-	color: white; 
-	font-size: 40px;
-	/*margin-top: 175px;*/
-}
-
-#welcome-page-btn{
-	background-color: #7d512b;
-	height: 71.6px;
-	width: 40%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 36.1px;
-	border-radius: 10%;
-}
-
-#welcome-page-btn:hover{
-	background-color: #5d412b;
-	height: 71.6px;
-	width: 40%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 36.1px;
-	border-radius: 10%;
-}
-.btn-text{
-	font-size: 20px;
-	color: white;
-	text-decoration: underline;
-}
-
-#map{
-	margin-left: auto;
-	margin-right: auto;
-	height: 2000px;
-	width: 500px;
-	background-color: black;
-	margin-top: 500px;
-	padding-top: -100px;
+	}
+	
 }
