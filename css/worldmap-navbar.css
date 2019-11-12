@@ -4,10 +4,8 @@ nav{
 	padding-left: 2rem;
 	margin-left: -1rem;
 	margin-top: -1.5rem;
-	/*margin: -8px -8px 0px -8px;*/
 	width: 100%;
-	height: 60px;
-	min-width: 1100px;
+	height: 70px;
 }
 
 nav h1{
@@ -15,16 +13,16 @@ nav h1{
 }
 
 #container-navigation{
-	height: 60px;
+	height: 70px;
 	margin-left: -8px;
 	position: fixed;
+	z-index: 2;
 }
 
 .main-nav-btn-left{
 	height: 100%;
 	float: left;
 	background-color: #023649;
-	/*padding-left: 10px;*/
 }
 
 .main-nav-btn-left:hover{
@@ -129,7 +127,13 @@ nav h1{
 	color: white;
 }
 
-@media screen and (max-width: 1100px){	
+.main-nav-btn-symbol{
+	text-decoration: none !important;
+	color: white;
+	text-align: center;
+}
+
+@media screen and (max-width: 1100px){
 	.none-1100px{
 		display: none;
 	}
@@ -160,7 +164,7 @@ nav h1{
 		width: auto;
 		height: auto;
 		margin-left: -10px;
-		margin-top: -7px;
+		margin-top: -12px;
 	}
 	
 	#wd1100-btn:hover #dropdown-content-1100px{
@@ -181,7 +185,7 @@ nav h1{
 	}
 }
 
-@media screen and (min-width: 1100px){	
+@media screen and (min-width: 1100px){
 	.display-1100px{
 		display: none;
 	}
