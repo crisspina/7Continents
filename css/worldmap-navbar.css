@@ -195,8 +195,6 @@ nav h1{
 		float: left;
 		margin-left: -1rem;
 		background-color: #023649;
-		/*background-color: red;
-		opacity: 0.25;*/
 	}
 	
 	#right-nav{
@@ -204,8 +202,6 @@ nav h1{
 		float: left;
 		padding-right: 1rem;
 		background-color: #023649;
-		/*background-color: pink;
-		opacity: 0.25;*/
 	}
 	
 }

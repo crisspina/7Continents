@@ -91,3 +91,16 @@ body{
 	text-decoration: underline;
 }
 
+#asia-main-page-head{
+	color: white; 
+	font-size: 60px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#asia-main-page-container{
+	background-image: url("../image/asia.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 1000px;
+}
