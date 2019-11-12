@@ -3,6 +3,8 @@ body{
 	background-color: #FFA538;
 }
 
+
+
 .wd-100{
 	width: 100%;
 }
@@ -78,9 +80,10 @@ body{
 #map{
 	margin-left: auto;
 	margin-right: auto;
-	height: 2000px;
-	width: 500px;
-	background-color: black;
+	height: 700px;
+	width: 1200px;
 	margin-top: 500px;
 	padding-top: -100px;
+	background-color:#023649;
+	
 }
