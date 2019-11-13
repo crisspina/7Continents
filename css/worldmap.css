@@ -2,6 +2,7 @@ body{
 	font-family: 'Asap Condensed';
 	background-color: #FFA538;
 	width: 100%;
+	margin: 0px;
 }
 
 .wd-100{
@@ -36,18 +37,10 @@ body{
 	width: 20%;
 }
 
-#welcome-page-container{
-	width: 100%;
-	height: 500px;
-	background-image: url();
-	margin-top: 50px;
-	position: relative;
-}
-
 #welcome-page-inside-box{
 	background-color: rgba(255,255,255,0.2);
-	width: 350px;
-	height: 350px;
+	width: 30%;
+	height: 55%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -56,7 +49,6 @@ body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
 }
 
 .text{
@@ -71,18 +63,13 @@ body{
 	width: 40%;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 36.1px;
+	/*margin-top: 36.1px;*/
 	border-radius: 10%;
+	
 }
 
 #welcome-page-btn:hover{
 	background-color: #5d412b;
-	height: 71.6px;
-	width: 40%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 36.1px;
-	border-radius: 10%;
 }
 
 .btn-text{
@@ -91,16 +78,9 @@ body{
 	text-decoration: underline;
 }
 
-#asia-main-page-head{
+#each-continental-main-page-head{
 	color: white; 
 	font-size: 60px;
 	text-align: center;
 	margin-top: 50px;
-}
-
-#asia-main-page-container{
-	background-image: url("../image/asia.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 1000px;
 }
