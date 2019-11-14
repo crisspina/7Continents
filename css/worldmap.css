@@ -40,7 +40,7 @@ body{
 #welcome-page-inside-box{
 	background-color: rgba(255,255,255,0.2);
 	width: 30%;
-	height: 55%;
+	height: 20vw;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -49,33 +49,41 @@ body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	display: block;
 }
 
 .text{
 	color: white; 
-	font-size: 40px;
+	font-size: 2.5vw;
 	/*margin-top: 175px;*/
 }
 
 #welcome-page-btn{
 	background-color: #7d512b;
-	height: 71.6px;
+	height: 4.5vw;
 	width: 40%;
 	margin-right: auto;
 	margin-left: auto;
-	/*margin-top: 36.1px;*/
 	border-radius: 10%;
-	
+	position: relative;
 }
 
 #welcome-page-btn:hover{
 	background-color: #5d412b;
 }
 
+#welcome-page-btn:active{
+	background-color: #4d412b;
+}
+
 .btn-text{
-	font-size: 20px;
+	font-size: 1.25vw;
 	color: white;
-	text-decoration: underline;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50% , -50%);
 }
 
 #each-continental-main-page-head{
@@ -83,4 +91,39 @@ body{
 	font-size: 60px;
 	text-align: center;
 	margin-top: 50px;
+}
+
+#welcome-page-container{
+	width: 75%;
+	height: 600px;
+	margin-top: 50px;
+	position: relative;
+	background-image: url("../image/All.png");
+	background-repeat: no-repeat;
+	background-size: 80vw,auto;
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#back-btn{
+	display: none;
+	position: relative;	
+	top: 10%;
+	float: right;
+	background-color: #7d512b;
+	width: 40px;
+	height: 30px;
+}
+
+#cross-btn{
+	width: auto;
+	height: auto;
+	border-radius: 50%;
+	background-color: red;
+}
+
+#welcome-page-btn-symbol{
+	color: white;
+	text-align: center;
 }
