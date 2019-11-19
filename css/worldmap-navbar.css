@@ -74,6 +74,7 @@ nav h1{
 	width: 110px;
 	padding-right: 10px;
 	padding-left: 10px;
+	position: relative;
 }
 
 #btn-3{
@@ -89,7 +90,6 @@ nav h1{
 	width: 130px;
 	height: auto;
 	margin-left: -10px;
-	margin-top: -7px;
 }
 
 .main-nav-btn-text{
@@ -109,7 +109,7 @@ nav h1{
 }
 
 .main-nav-dropdown:hover{
-	background-color: solid gray;
+	background-color: lightgrey;
 }
 
 .main-nav-dropdown:hover .main-nav-dropdown-text{
@@ -135,6 +135,17 @@ nav h1{
 		display: none;
 	}
 	
+	.main-nav-btn-right-1100px{
+		height: 100%;
+		float: right;
+		background-color: #023649;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.main-nav-btn-right-1100px:hover{
+		background-color: lightgrey;
+	}
 
 	#left-nav{
 		height: 100%;
@@ -155,7 +166,11 @@ nav h1{
 		width: auto;
 		height: auto;
 		margin-left: -10px;
-		margin-top: -12px;
+		margin-top: -3px;
+	}
+
+	#wd1100-btn{
+		position: relative;
 	}
 	
 	#wd1100-btn:hover #dropdown-content-1100px{
@@ -173,6 +188,13 @@ nav h1{
 	
 	.main-nav-dropdown-1100px:hover .main-nav-dropdown-text{
 		color: black;
+	}
+
+	.main-nav-dropdown-1100px:active .main-nav-dropdown-text {
+		color: white;
+	}
+	.main-nav-dropdown-1100px:active{
+		background-color: #022639;
 	}
 }
 
